@@ -12,11 +12,13 @@ nav {
 section.primera {
     width: 33%;
     float: left;
+    height: 515px;
+    background-color: blue;
 }
 section.segunda {
-    width: 33%;
+    width: 50%;
+    height: 515px;
     background-color: red;
-    padding: 100px;
     float: left;
 }
 p#entradilla {
@@ -24,5 +26,7 @@ p#entradilla {
 }
 aside {
     float:left;
-    width: 33%;
+    width: 11%;
+    height: 515px;
+    background-color: blue;
 }
