@@ -3,16 +3,17 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Curriculum vitae</title>
+        <title>Curriculum</title>
         <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
     </head>
     <body>
         <header>
             <div id="perfil"><img src="img/perfil.png"></div><hr>
             <nav>
-                <a href="pdf/headline_cv.pdf">Enlace PDF del curriculum</a> -
-                <a href="https://github.com/vikpascual">Portfolio de practicas</a> -
-                <a href="contacto.html">Contacto</a>
+                <!-- Aquí pondría una foto y un curriculum reales -->
+                <a href="pdf/headline_cv.pdf" download="curriculum">Descarga el curriculum</a> -
+                <a href="pdf/headline_cv.pdf" target="_blank">Vista previa del currículum</a> -
+                <a href="https://github.com/vikpascual" target="_blank">Portfolio de proyectos</a>
             </nav><hr>
         </header>
         <main>
@@ -24,8 +25,9 @@
                 <p id="entradilla"><b>Sé quien eres y dí lo que sientes, ya que quines<br>
                  se preocupan, no valen la pena; y quienes valen<br>
                   la pena, no se preocupan</b></p>
-                <p>Hola, sou un técnico superior de informática actualmente trabajando en Mercadona,<br>en Valencia. Obtuve mi título de administración de sistemas en red en el instituto<br> IES Abatos en Valencia.</p>
-                <p>He experimentado en Diseño Web Responsivo, Desarrollo y Personalización de<br>
+                  <!-- Aqui pondria mi expeiencia -->
+                <p class="texto">Hola, soy un técnico superior de informática actualmente trabajando en Mercadona,<br>en Valencia. Obtuve mi título de administración de sistemas en red en el instituto<br> IES Abatos en Valencia.</p>
+                <p class="texto">He experimentado en Diseño Web Responsivo, Desarrollo y Personalización de<br>
                 WordPress y estoy aquí para servirle. Tengo más de 5 años de experiencia en diseño<br>
                 web y desarrollo de aplicaciones.<br>
                 Descripción del servicio: DISEÑO WEB: Adobe Photoshop, diseño de logotipo, Psd<br>
@@ -37,12 +39,27 @@
                 DESARROLLO DE SOFTWARE: Puedo desarrollar todo tipo de software personalizados<br>
                 según los requisitos del cliente.</p>
             </section>
-        </main>
+        
         <aside>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/fhx2kZJf3V4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/fabDpTOfKns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><h2 align="center">Música para alegrar el dia</h2>
+            <p align="center"><audio controls src="musica/cancionbroma.mp3">No se puede reproducir el audio en su navegador</audio></p>
         </aside>
+        </main>
+        <br><br><hr>
         <footer>
-
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="contacto">
+                <!-- Links falsos -->
+                <a href="#" onclick="alert('Mi número de teléfono es: 666666666')"><img src="img/whatsapp.svg" width="50px" height="60px"></a>
+                <a href="https://www.facebook.com/marco.pereirarodrigues.56" target="_blank"><img src="img/facebook.svg" width="50px" height="60px"></a>
+                <a href="https://twitter.com/valenciacf?lang=es" target="_blank"><img src="img/twitter.svg" width="50px" height="60px"></a>
+                <a href="#" onClick="alert('Mi correo eléctronico es: vikpascual@gmail.com')"><img src="img/email.svg" width="50px" height="60px"></a>
+            </div><br><hr>
+            <address>
+                Autor: Víctor Pascual Muñoz<br>
+                Última fecha de modificación: 18 de Noviembre de 2018
+            </address>
         </footer>
     </body>
 </html>

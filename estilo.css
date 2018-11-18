@@ -1,5 +1,6 @@
 body {
-    margin: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 div#perfil {
     text-align: center;
@@ -7,26 +8,38 @@ div#perfil {
 nav {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 110%;
+    font-size: 150%;
 }
 section.primera {
     width: 33%;
     float: left;
-    height: 515px;
-    background-color: blue;
+    height: 525px;
 }
 section.segunda {
-    width: 50%;
-    height: 515px;
-    background-color: red;
+    width: 41%;
+    height: 525px;
     float: left;
 }
 p#entradilla {
     font-size: 150%;
 }
+p.texto {
+    font-size: 115%;
+}
 aside {
     float:left;
-    width: 11%;
-    height: 515px;
-    background-color: blue;
+    width: 26%;
+    height: 525px;
+}
+address {
+    font-size: 130%;
+}
+div.contacto {
+    width: 100%;
+    text-align: center;
+}
+.contacto a{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
 }
